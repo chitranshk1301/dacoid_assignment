@@ -26,7 +26,7 @@ const WorkoutTracker = () => {
         <img src={DetailedCard} alt="*" />
       </div>
 
-      <div className='fixed'>
+      <div className='bottom-0 fixed left-0 z-50 w-full'>
         <BottomNavigation />
       </div>
 
