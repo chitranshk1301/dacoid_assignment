@@ -5,7 +5,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/track-your-goal" exact element={<TrackYourGoal />}/>
+        <Route path="/" exact element={<TrackYourGoal />}/>
         <Route path="/get-burn" exact element={<GetBurn />}/>
         <Route path="/goals-page" exact element={<GoalsPage />}/>
         <Route path="/sign-in" exact element={<Signin />}/>
