@@ -9,7 +9,7 @@ import FacebookIcon from '../assets/facebook.svg'
 const Signup = () => {
   return (
     <div className='flex flex-col justify-center gap-10 p-4 mt-10'>
-      <h2 className='text-[20px] font-[700]'>Create an account</h2>
+      <h1 className='text-[20px] font-[700]'>Create an account</h1>
       <div className='grid grid-rows-4 gap-7 mt-6 ml-1'>
         <InputField placeholder="First Name" type="text" />
         <InputField placeholder="Last Name" type="text" />
