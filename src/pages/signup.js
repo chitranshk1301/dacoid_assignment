@@ -5,6 +5,7 @@ import InputField from '../components/InputField'
 import OrImage from '../assets/Or.svg'
 import GoogleIcon from '../assets/google.svg'
 import FacebookIcon from '../assets/facebook.svg'
+import { Link } from 'react-router-dom';
 
 const Signup = () => {
   return (
@@ -27,7 +28,7 @@ const Signup = () => {
           <img src={FacebookIcon} />
         </div>
         <p className='text-[12px] font-[500] ml-20 mt-4'>Already have an account?
-          <span className='text-[#93A9FF] underline cursor-pointer'>Login</span>
+          <Link to='/sign-in'><span className='text-[#93A9FF] underline cursor-pointer'>Login</span></Link>
         </p>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 import ManRunning from '../assets/man_running_page1.png';
 import NavigationButton from '../assets/navigation_button.svg'
@@ -19,7 +20,7 @@ const TrackYourGoal = () => {
         </p>
       </div>
       <div className='focus:opacity-100 cursor-pointer mt-28 ml-[15rem]'>
-        <img src={NavigationButton} />
+        <Link to='/get-burn'><img src={NavigationButton} /></Link>
       </div>
     </div>
   )

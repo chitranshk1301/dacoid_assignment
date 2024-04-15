@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 import NavigationButton from '../assets/navigation_button.svg';
 import TwoCyclists from '../assets/two_cyclists_page2.png';
@@ -18,7 +19,7 @@ const GetBurn = () => {
         </p>
       </div>
       <div className='focus:opacity-100 cursor-pointer mt-28 ml-[15rem]'>
-        <img src={NavigationButton} />
+        <Link to='/sign-in'><img src={NavigationButton} /></Link>
       </div>
     </div>
   )

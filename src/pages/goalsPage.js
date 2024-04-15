@@ -2,6 +2,8 @@ import React from 'react'
 import Button from '../components/Button'
 import ListItem from '../components/ListItem'
 
+import { Link } from 'react-router-dom'
+
 const GoalsPage = () => {
   return (
     <div className='flex flex-col justify-center items-center gap-10 p-4 mt-16'>
@@ -16,7 +18,7 @@ const GoalsPage = () => {
         <ListItem text="Mindfulness and Mental Health" />
 
         <div className='ml-2 mt-24'>
-          <Button text="Confirm" />
+          <Link to='/workout-tracker'><Button text="Confirm" /></Link>
         </div>
 
       </div>

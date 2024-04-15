@@ -8,11 +8,14 @@ import UpperBodyWorkout from '../assets/upperBodyWorkout.svg'
 import DetailedCard from '../assets/detailedCard.svg'
 import BottomNavigation from '../components/BottomNavigation'
 
+import { Link } from 'react-router-dom'
+
 const WorkoutTracker = () => {
   return (
     <div className='flex flex-col justify-center items-center gap-10 p-4 mt-16'>
       <h1 className='text-[20px] font-[600]'>Workout Tracker</h1>
-      <img src={Graph} alt="*" />
+      <Link to='/workout-schedule'><img src={Graph} alt="*" /></Link>
+
       <AlertCard />
 
       <div>
